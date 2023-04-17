@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../imagens/espaco.jpg);
+    background-size: cover;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#jogo{
+    width: 603px;
+    height: 603px;
+    border: solid 3px;
+    display: inline-block;
+    margin: 5%;
+    background-color: white;
+}
+#resultado{
+    margin-left: 30px;
+    float: left;
+    background-color: rgb(23, 23, 59);
+    color: #fff;
+    padding: 2%;
+    border-radius: 10px;
+    border: solid 2px #fff;
+}
+#resposta{
+    font-size: 30;
+    font-style: italic;
+    font-weight: bold;
+    color: #f5ff00;
+}
+.linha{
+    height: 200px;
+    border-bottom: solid 1px;
+}
+.casa{
+    width: 200px;
+    height: 100%;
+    border-right: solid 1px;
+    float: left;
+}
+.xis, .velha{
+    font-family: 'Courier New', "monospace", sans-serif;
+    color: white;
+    font-weight: bold;
+}
+input[type=button], input[type=submit], input[type=reset]{
+    background-color: #3d94f6;
+    background-image: linear-gradient(to bottom, #3d94f6, #1e62d0);
+    border-radius: 20px;
+    color: #fff;
+    font-family: Open Sans;
+    font-size: 30px;
+    font-weight: 100;
+    padding: 20px;
+    text-decoration: none;
+    box-shadow: 1px 1px 20px 0px #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #337fed 1px;
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+input[type=button]:hover{
+    background-color: #1e62d0;
+    background-image: linear-gradient(to bottom, #1e62d0, #3d94f6);
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+}
